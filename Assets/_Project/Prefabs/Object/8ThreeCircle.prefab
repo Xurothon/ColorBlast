@@ -1,0 +1,220 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2405331502386153103
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2405331502386153138}
+  - component: {fileID: 2405331502386153102}
+  m_Layer: 0
+  m_Name: 3Sphere
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2405331502386153138
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2405331502386153103}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7896042326518889673}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2405331502386153102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2405331502386153103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f89af493cffbc8c4baf94339f76d8695, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainObjectRadius: 2
+  objectsToPlaceRadius: 0.45
+  objectToPlaceRadiusPrefab: {fileID: 519983767816658088, guid: ba20cf7b5d6871c43bdfb2b19669075d,
+    type: 3}
+  fillFromPercentage: 0
+  fillToPercentage: 100
+  pointTowardsCenter: 0
+  randomizeHorizontalRotation: 0
+  clonedObjectsList: []
+  materials:
+  - {fileID: 2100000, guid: 877f060da99dd764fa68939816334efc, type: 2}
+  - {fileID: 2100000, guid: cf41e7374d6020a45900bc18882feafd, type: 2}
+  - {fileID: 2100000, guid: e2973d92708a97846b2ebe9458160f78, type: 2}
+  maxCoutMaterial: 4
+--- !u!1 &7896042325738708189
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7896042325738708190}
+  - component: {fileID: 7896042325738708191}
+  m_Layer: 0
+  m_Name: 3Sphere (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7896042325738708190
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7896042325738708189}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4, y: -3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7896042326518889673}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7896042325738708191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7896042325738708189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f89af493cffbc8c4baf94339f76d8695, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainObjectRadius: 2
+  objectsToPlaceRadius: 0.45
+  objectToPlaceRadiusPrefab: {fileID: 519983767816658088, guid: ba20cf7b5d6871c43bdfb2b19669075d,
+    type: 3}
+  fillFromPercentage: 0
+  fillToPercentage: 100
+  pointTowardsCenter: 0
+  randomizeHorizontalRotation: 0
+  clonedObjectsList: []
+  materials:
+  - {fileID: 2100000, guid: 877f060da99dd764fa68939816334efc, type: 2}
+  - {fileID: 2100000, guid: cf41e7374d6020a45900bc18882feafd, type: 2}
+  - {fileID: 2100000, guid: e2973d92708a97846b2ebe9458160f78, type: 2}
+  maxCoutMaterial: 4
+--- !u!1 &7896042326518889686
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7896042326518889673}
+  - component: {fileID: 7896042326518889672}
+  m_Layer: 0
+  m_Name: 8ThreeCircle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7896042326518889673
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7896042326518889686}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2405331502386153138}
+  - {fileID: 7896042327179124163}
+  - {fileID: 7896042325738708190}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7896042326518889672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7896042326518889686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 228086aa3f09f55419178f098fd79540, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 8
+--- !u!1 &7896042327179124174
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7896042327179124163}
+  - component: {fileID: 7896042327179124160}
+  m_Layer: 0
+  m_Name: 3Sphere (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7896042327179124163
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7896042327179124174}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7896042326518889673}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7896042327179124160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7896042327179124174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f89af493cffbc8c4baf94339f76d8695, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainObjectRadius: 3
+  objectsToPlaceRadius: 0.45
+  objectToPlaceRadiusPrefab: {fileID: 519983767816658088, guid: ba20cf7b5d6871c43bdfb2b19669075d,
+    type: 3}
+  fillFromPercentage: 0
+  fillToPercentage: 100
+  pointTowardsCenter: 0
+  randomizeHorizontalRotation: 0
+  clonedObjectsList: []
+  materials:
+  - {fileID: 2100000, guid: 877f060da99dd764fa68939816334efc, type: 2}
+  - {fileID: 2100000, guid: cf41e7374d6020a45900bc18882feafd, type: 2}
+  - {fileID: 2100000, guid: e2973d92708a97846b2ebe9458160f78, type: 2}
+  maxCoutMaterial: 4
